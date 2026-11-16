@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio personal de Rodrigo Alejandro Chi Catzim - Ingeniero en Sistemas Computacionales">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tablet.css">
+  <link rel="stylesheet" href="movil.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <title>Rodrigo Chi | Portafolio</title>
+</head>
+
+<body>
+  <!-- Encabezado principal -->
+  <header class="encabezado">
+    <div class="ancho margen encabezado-contenido">
+      <a class="logo" href="#inicio">
+        <figure>
+          <img src="img/logo.png" alt="Logo RC">
+        </figure>
+      </a>
+
+      <button class="menu-toggle" id="btn_menu" type="button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="caja_menu">
+        <ul class="menu">
+          <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+          <li><a href="#sobre-mi"><i class="fa-solid fa-user"></i> Sobre mí</a></li>
+          <li><a href="#educacion"><i class="fa-solid fa-graduation-cap"></i> Educación</a></li>
+          <li><a href="#experiencia"><i class="fa-solid fa-briefcase"></i> Experiencia</a></li>
+          <li><a href="#habilidades"><i class="fa-solid fa-laptop-code"></i> Habilidades</a></li>
+          <li><a href="#proyectos"><i class="fa-solid fa-folder-open"></i> Proyectos</a></li>
+          <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección 1: Portada / Inicio -->
+    <section class="seccion-inicio" id="inicio">
+      <div class="ancho margen portada">
+        <!-- Columna izquierda: información personal -->
+        <div class="portada-texto">
+          <p class="profesion">
+            <span class="icono-codigo">
+              <i class="fa-solid fa-code"></i>
+            </span>
+            Ingeniero en sistemas Computacionales
+          </p>
+
+          <p class="saludo">HOLA, SOY</p>
+
+          <h1 id="nombre">
+            RODRIGO ALEJANDRO
+            <span>CHI CATZIM</span>
+          </h1>
+
+          <div class="especialidades-fila">
+            <span class="barra-acento"></span>
+            <ul class="especialidades">
+              <li>Desarrollo Web</li>
+              <li>Frontend</li>
+              <li>Base de Datos</li>
+            </ul>
+          </div>
+
+          <p class="descripcion">
+            Apasionado por la tecnología, el desarrollo web y la creación de
+            soluciones que mejoran la vida de las personas. Me especializo en
+            construir experiencias digitales modernas, eficientes y escalables.
+          </p>
+
+          <!-- Botones de acción -->
+          <div class="acciones">
+            <a class="boton boton-principal centrar" href="#">
+              Descargar CV
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </a>
+
+            <a class="boton boton-secundario centrar" href="#sobre-mi">
+              Conocer más sobre mí
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </div>
+
+          <!-- Redes sociales -->
+          <ul class="redes">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna derecha: composición de imágenes dentro de figure -->
+        <figure class="portada-imagen">
+          <img class="patron" src="img/patron.svg" alt="">
+          <img class="circulo" src="img/circulo.svg" alt="">
+          <img class="sombra" src="img/sombra.png" alt="">
+          <img class="retrato" src="img/yo_foto.png" alt="Retrato de Rodrigo Chi con una sudadera negra">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Sección 2: Sobre mí -->
+    <section class="seccion-sobre-mi" id="sobre-mi">
+      <!-- Etiqueta superior izquierda -->
+      <div class="etiqueta-seccion">
+        <h2>SOBRE MÍ</h2>
+        <span class="etiqueta-icono">
+          <i class="fa-solid fa-user"></i>
+        </span>
+      </div>
+
+      <!-- Bloque 1: ¿Quién soy? -->
+      <div class="ancho margen sobre-mi-bloque">
+        <div class="sobre-mi-texto">
+          <div class="subtitulo-fila">
+            <span class="linea-azul"></span>
+            <p class="subtitulo-seccion">MI HISTORIA</p>
+          </div>
+          <h3 class="titulo-seccion">¿Quién <span>soy?</span></h3>
+          <p class="texto-seccion">
+            Soy un estudiante de Ingeniería en Sistemas Computacionales,
+            apasionado por la tecnología, el desarrollo web y las bases de
+            datos. Me gusta resolver problemas, aprender cosas nuevas y crear
+            soluciones que realmente aporten valor.
+          </p>
+        </div>
+
+        <div class="sobre-mi-datos">
+          <div class="tarjeta-datos">
+            <div class="dato-item">
+              <span class="circulo-icono icono-azul">
+                <i class="fa-solid fa-user"></i>
+              </span>
+              <h4>NOMBRE</h4>
+              <p>Rodrigo Alejandro Chi Catzim</p>
+            </div>
+
+            <div class="dato-item">
+              <span class="circulo-icono icono-turquesa">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <h4>UBICACIÓN</h4>
+              <p>Hocabá, Yucatán, México</p>
+            </div>
+
+            <div class="dato-item">
+              <span class="circulo-icono icono-azul">
+                <i class="fa-solid fa-code"></i>
+              </span>
+              <h4>PERFIL</h4>
+              <p>Desarrollo de software</p>
+            </div>
+
+            <div class="dato-item">
+              <span class="circulo-icono icono-turquesa">
+                <i class="fa-solid fa-desktop"></i>
+              </span>
+              <h4>ÁREA DE INTERÉS</h4>
+              <p>Desarrollo web y tecnología</p>
+            </div>
+          </div>
+
+          <div class="tarjeta-codigo">
+            <figure class="tarjeta-codigo-img">
+              <img src="img/frase_banner.jpg" alt="Espacio de trabajo con código">
+            </figure>
+            <div class="tarjeta-codigo-texto">
+              <p>Código, ideas y <span>grandes proyectos.</span></p>
+              <span class="barra-degradado"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque 2: Mis principales intereses -->
+      <div class="fondo-claro">
+        <div class="ancho margen intereses-bloque">
+          <div class="tarjeta-intereses">
+            <div class="interes-item">
+              <span class="circulo-icono icono-azul">
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4>Creatividad</h4>
+              <p>
+                Encontrar diferentes maneras de convertir una idea en algo claro,
+                funcional y visualmente atractivo.
+              </p>
+            </div>
+
+            <div class="interes-item">
+              <span class="circulo-icono icono-turquesa">
+                <i class="fa-solid fa-lightbulb"></i>
+              </span>
+              <h4>Aprendizaje</h4>
+              <p>
+                Explorar nuevas ideas, herramientas y conocimientos que me
+                permitan seguir evolucionando.
+              </p>
+            </div>
+
+            <div class="interes-item">
+              <span class="circulo-icono icono-azul">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </span>
+              <h4>Resolución de problemas</h4>
+              <p>
+                Analizar situaciones desde diferentes perspectivas hasta
+                encontrar una solución adecuada.
+              </p>
+            </div>
+          </div>
+
+          <div class="intereses-texto">
+            <div class="subtitulo-fila subtitulo-derecha">
+              <p class="subtitulo-seccion">LO QUE ME INTERESA</p>
+              <span class="linea-azul"></span>
+            </div>
+            <h3 class="titulo-seccion">Mis principales <span>intereses</span></h3>
+            <p class="texto-seccion">
+              Estas son algunas de las áreas que más me apasiona y en la que
+              disfruto aprender y desarrollarme:
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque 3: Como hago las cosas -->
+      <div class="ancho margen trabajo-bloque">
+        <div class="trabajo-texto">
+          <div class="subtitulo-fila">
+            <span class="linea-azul"></span>
+            <p class="subtitulo-seccion">MI FORMA DE TRABAJAR</p>
+          </div>
+          <h3 class="titulo-seccion">Como hago las cosas</h3>
+          <p class="texto-seccion">
+            Me gusta mantener una buena organización, ser constante y trabajar
+            en equipo. Creo en la comunicación, la disciplina y en la mejora
+            continua para lograr grandes resultados.
+          </p>
+        </div>
+
+        <div class="trabajo-pasos">
+          <div class="paso-item">
+            <figure class="paso-figura">
+              <img src="img/Design stats-pana 1.svg" alt="Ilustración de analizar">
+            </figure>
+            <h4 class="paso-azul">Analizar</h4>
+            <p>Comprender el problema antes de buscar una solución.</p>
+          </div>
+
+          <div class="paso-item">
+            <figure class="paso-figura">
+              <img src="img/Research paper-pana 1.svg" alt="Ilustración de explorar">
+            </figure>
+            <h4 class="paso-turquesa">Explorar</h4>
+            <p>Investigar posibilidades y considerar diferentes alternativas.</p>
+          </div>
+
+          <div class="paso-item">
+            <figure class="paso-figura">
+              <img src="img/Progress overview-amico 1.svg" alt="Ilustración de crear">
+            </figure>
+            <h4 class="paso-azul">Crear</h4>
+            <p>Convertir una idea en una solución concreta.</p>
+          </div>
+
+          <div class="paso-item">
+            <figure class="paso-figura">
+              <img src="img/Game analytics-rafiki 1.svg" alt="Ilustración de mejorar">
+            </figure>
+            <h4 class="paso-turquesa">Mejorar</h4>
+            <p>Revisar el resultado y buscar oportunidades de mejora.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloque 4: Banner de frase final -->
+      <div class="frase-banner">
+        <figure class="frase-img">
+          <img src="img/frase_banner.jpg" alt="Laptop con código y plantas">
+        </figure>
+        <div class="ancho margen frase-contenido">
+          <div class="frase-texto">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+              Siempre hay algo nuevo que
+              <span>aprender, construir y mejorar.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 3: Formación Académica -->
+    <section class="seccion-educacion" id="educacion">
+      <!-- Etiqueta superior derecha -->
+      <div class="etiqueta-derecha-fila">
+        <div class="etiqueta-seccion-derecha">
+          <span class="etiqueta-icono-oscuro">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </span>
+          <h2>FORMACIÓN <span>ACADÉMICA</span></h2>
+        </div>
+      </div>
+
+      <div class="ancho margen">
+        <p class="edu-intro">
+          Una trayectoria construida paso a paso, desde mis primeros
+          acercamientos a la informática hasta mi especialización actual en
+          desarrollo de software.
+        </p>
+
+        <!-- Línea de tiempo académica -->
+        <div class="edu-timeline">
+          <article class="edu-tarjeta">
+            <span class="edu-punto punto-turquesa"></span>
+            <figure class="edu-img">
+              <img src="img/edu_itm.png" alt="Instituto Tecnológico de Mérida">
+            </figure>
+
+            <div class="edu-info">
+              <div class="edu-nivel">
+                <span class="edu-nivel-icono icono-turquesa-suave">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <span class="edu-badge badge-turquesa">EDUCACIÓN SUPERIOR</span>
+              </div>
+              <h3>Ingeniería en Sistemas Computacionales</h3>
+              <p class="edu-institucion">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Instituto Tecnológico de Mérida
+              </p>
+              <p class="edu-descripcion borde-turquesa">
+                Especializándome en el área de desarrollo de aplicaciones móviles
+                y web, aplicando arquitecturas modernas, bases de datos y buenas
+                prácticas de ingeniería de software.
+              </p>
+            </div>
+
+            <div class="edu-meta">
+              <p><i class="fa-solid fa-calendar-days"></i> 2023 - 2027</p>
+              <p><i class="fa-solid fa-location-dot"></i> Mérida, Yucatán</p>
+              <span class="edu-estado estado-turquesa">En curso</span>
+            </div>
+          </article>
+
+          <article class="edu-tarjeta">
+            <span class="edu-punto punto-azul"></span>
+            <figure class="edu-img">
+              <img src="img/edu_cbta.jpg" alt="Centro de Bachillerato Tecnológico Agropecuario">
+            </figure>
+
+            <div class="edu-info">
+              <div class="edu-nivel">
+                <span class="edu-nivel-icono icono-azul-suave">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <span class="edu-badge badge-azul">EDUCACIÓN MEDIA SUPERIOR</span>
+              </div>
+              <h3>Técnico en Ofimática</h3>
+              <p class="edu-institucion">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Centro de Bachillerato Tecnológico Agropecuario (CBTA 283)
+              </p>
+              <p class="edu-descripcion borde-azul">
+                Formación técnica enfocada en la optimización de procesos
+                administrativos, manejo avanzado de herramientas de oficina, bases
+                de datos y soporte técnico.
+              </p>
+            </div>
+
+            <div class="edu-meta">
+              <p><i class="fa-solid fa-calendar-days"></i> 2020 - 2023</p>
+              <p><i class="fa-solid fa-location-dot"></i> Hocabá, Yucatán</p>
+              <span class="edu-estado estado-azul">Completado</span>
+            </div>
+          </article>
+
+          <article class="edu-tarjeta">
+            <span class="edu-punto punto-amarillo"></span>
+            <figure class="edu-img">
+              <img src="img/edu_secundaria.jpg" alt="Taller de Informática en secundaria">
+            </figure>
+
+            <div class="edu-info">
+              <div class="edu-nivel">
+                <span class="edu-nivel-icono icono-amarillo-suave">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <span class="edu-badge badge-amarillo">EDUCACIÓN SECUNDARIA</span>
+              </div>
+              <h3>Taller de Informática</h3>
+              <p class="edu-institucion">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Educación Secundaria
+              </p>
+              <p class="edu-descripcion borde-amarillo">
+                Primer contacto formal con la tecnología y la computación a través
+                del taller de informática, donde descubrí mi pasión por resolver
+                problemas mediante la programación.
+              </p>
+            </div>
+
+            <div class="edu-meta">
+              <p><i class="fa-solid fa-calendar-days"></i> 2017 - 2020</p>
+              <p><i class="fa-solid fa-location-dot"></i> Hocabá, Yucatán</p>
+              <span class="edu-estado estado-amarillo">Completado</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Certificaciones y cursos -->
+        <div class="cert-encabezado">
+          <span class="cert-icono-titulo">
+            <i class="fa-solid fa-award"></i>
+          </span>
+          <div class="cert-titulos">
+            <h3>Certificaciones y <span>cursos</span></h3>
+            <p>
+              He completado mi formación con cursos y certificaciones que
+              fortalecen mis habilidades y conocimientos.
+            </p>
+          </div>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-tarjeta cert-oscura">
+            <figure class="cert-logo">
+              <img src="img/SQL 1.svg" alt="Logo de SQL">
+            </figure>
+            <h4>SQL</h4>
+            <div class="cert-proveedor">
+              <figure class="cert-proveedor-img">
+                <img src="img/41QodfboFdL 1.svg" alt="Oracle">
+              </figure>
+              <span>Oracle</span>
+            </div>
+            <span class="cert-tipo tipo-oscuro">Curso</span>
+            <a class="cert-link" href="#">
+              <span>Ver certificado</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </article>
+
+          <article class="cert-tarjeta cert-clara cert-destacada">
+            <figure class="cert-logo">
+              <img src="img/JavaScript-logo 2.svg" alt="Logo de JavaScript">
+            </figure>
+            <h4>JavaScript / Frontend</h4>
+            <div class="cert-proveedor">
+              <figure class="cert-proveedor-img">
+                <img src="img/platzi_favicon 1.svg" alt="Platzi">
+              </figure>
+              <span>Platzi</span>
+            </div>
+            <span class="cert-tipo tipo-claro">Certificación</span>
+            <a class="cert-link" href="#">
+              <span>Ver certificado</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </article>
+
+          <article class="cert-tarjeta cert-clara">
+            <figure class="cert-logo">
+              <img src="img/React.svg 1.svg" alt="Logo de React">
+            </figure>
+            <h4>React</h4>
+            <div class="cert-proveedor">
+              <figure class="cert-proveedor-img">
+                <img src="img/Udemy-Logo 1.svg" alt="Udemy">
+              </figure>
+              <span>Udemy</span>
+            </div>
+            <span class="cert-tipo tipo-claro">Certificación</span>
+            <a class="cert-link" href="#">
+              <span>Ver certificado</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </article>
+
+          <article class="cert-tarjeta cert-oscura">
+            <figure class="cert-logo">
+              <img src="img/Python-logo-notext.svg 1.svg" alt="Logo de Python">
+            </figure>
+            <h4>Python</h4>
+            <div class="cert-proveedor">
+              <figure class="cert-proveedor-img">
+                <img src="img/platzi_favicon 1.svg" alt="Platzi">
+              </figure>
+              <span>Platzi</span>
+            </div>
+            <span class="cert-tipo tipo-oscuro">Curso</span>
+            <a class="cert-link" href="#">
+              <span>Ver certificado</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </article>
+        </div>
+
+        <div class="cert-puntos">
+          <span class="punto activo"></span>
+          <span class="punto"></span>
+          <span class="punto"></span>
+          <span class="punto"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 4: Experiencia Laboral -->
+    <section class="seccion-experiencia" id="experiencia">
+      <!-- Encabezado superior con pestaña amarilla y resumen -->
+      <div class="exp-encabezado-fila">
+        <div class="etiqueta-experiencia">
+          <h2>EXPERIENCIA <span>LABORAL</span></h2>
+          <span class="etiqueta-icono">
+            <i class="fa-solid fa-user-tie"></i>
+          </span>
+        </div>
+
+        <div class="exp-contadores">
+          <span><span class="mini-punto punto-turquesa"></span> 2 roles</span>
+          <span class="exp-divisor"><span class="mini-punto punto-amarillo"></span> 3 proyectos</span>
+        </div>
+      </div>
+
+      <div class="ancho margen">
+        <p class="exp-intro">
+          Mi trayectoria desempeñándome en el desarrollo de software y soporte
+          técnico profesional.
+        </p>
+
+        <!-- Tarjetas de experiencia laboral -->
+        <div class="exp-lista">
+          <article class="exp-tarjeta">
+            <figure class="exp-img">
+              <img src="img/foto-1.png" alt="Desarrollo web en Empresa Purificadora de Agua">
+            </figure>
+
+            <div class="exp-contenido">
+              <div class="exp-superior">
+                <span class="exp-badge exp-badge-amarillo">Desarrollo web</span>
+                <span class="exp-subetiqueta">Trayectoria inicial</span>
+              </div>
+
+              <h3>Desarrollador Web - <span>Empresa Purificadora de Agua</span></h3>
+
+              <p class="exp-descripcion">
+                Desarrollo y mantenimiento de plataforma web informativa,
+                diseño de interfaz intuitiva y optimización de la experiencia
+                digital para clientes.
+              </p>
+
+              <div class="exp-inferior">
+                <span class="exp-chip chip-turquesa">Foco en aprendizaje</span>
+                <span class="exp-subetiqueta">Experiencia formativa</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="exp-tarjeta">
+            <figure class="exp-img">
+              <img src="img/foto-2.png" alt="Soporte Técnico y Desarrollador en IMSS">
+            </figure>
+
+            <div class="exp-contenido">
+              <div class="exp-superior">
+                <span class="exp-badge exp-badge-turquesa">Soporte técnico</span>
+                <span class="exp-subetiqueta">Impacto institucional</span>
+              </div>
+
+              <h3>Soporte Técnico y Desarrollador - <span>IMSS</span></h3>
+
+              <p class="exp-descripcion">
+                Encargado del soporte técnico de equipos y sistemas, además del
+                desarrollo de soluciones web internas y herramientas de apoyo
+                institucional.
+              </p>
+
+              <div class="exp-inferior">
+                <span class="exp-chip chip-amarillo">Impacto institucional</span>
+                <span class="exp-subetiqueta">Soporte y desarrollo</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Resumen de impacto -->
+        <div class="exp-resumen">
+          <div class="exp-resumen-intro">
+            <h3>Resumen de impacto</h3>
+            <p>
+              Un perfil con experiencia dual: desarrollo de soluciones digitales
+              y soporte técnico orientado a resultados.
+            </p>
+          </div>
+
+          <div class="exp-metrica">
+            <span class="circulo-icono icono-turquesa">
+              <i class="fa-solid fa-code"></i>
+            </span>
+            <h4>Proyectos realizados</h4>
+            <p class="metrica-valor">+ 3</p>
+            <p class="metrica-texto">
+              Sitios web, herramientas internas y mejoras en sistemas
+            </p>
+          </div>
+
+          <div class="exp-metrica">
+            <span class="circulo-icono icono-turquesa">
+              <i class="fa-solid fa-users"></i>
+            </span>
+            <h4>Trabajo en equipo</h4>
+            <p class="metrica-valor">100%</p>
+            <p class="metrica-texto">
+              Colaboración con personal administrativo, técnico y usuarios
+              finales.
+            </p>
+          </div>
+
+          <div class="exp-metrica">
+            <span class="circulo-icono icono-turquesa">
+              <i class="fa-solid fa-forward"></i>
+            </span>
+            <h4>Aprendizaje Continuo</h4>
+            <p class="metrica-valor">∞</p>
+            <p class="metrica-texto">
+              Adquisición constante de nuevas herramientas, buenas prácticas y
+              soluciones.
+            </p>
+          </div>
+
+          <div class="exp-nota">
+            <span class="exp-nota-icono">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <p>
+              Una experiencia laboral pensada para resolver problemas, construir
+              soluciones digitales y acompañar a equipos con un enfoque práctico
+              y minimalista.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Script para abrir y cerrar el menú en tablet y móvil -->
+  <script>
+    $("#btn_menu").click(function () {
+      $("#caja_menu").toggleClass("activo");
+    });
+
+    $("#caja_menu a").click(function () {
+      $("#caja_menu").removeClass("activo");
+    });
+  </script>
+</body>
+
+</html>

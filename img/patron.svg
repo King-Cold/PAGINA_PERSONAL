@@ -1,0 +1,8 @@
+﻿<svg width="224" height="179" viewBox="0 0 224 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="patron-puntos" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="1.8" fill="#ffffff" opacity="0.65"/>
+    </pattern>
+  </defs>
+  <rect width="224" height="179" fill="url(#patron-puntos)"/>
+</svg>

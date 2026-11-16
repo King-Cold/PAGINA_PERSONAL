@@ -1,0 +1,207 @@
+@media (max-width: 480px) {
+  .margen {
+    padding: 15px 16px;
+  }
+
+  .menu-toggle {
+    right: 16px;
+  }
+
+  #caja_menu {
+    width: 260px;
+  }
+
+  .profesion {
+    font-size: 13px;
+  }
+
+  .portada-texto h1 {
+    font-size: 38px;
+  }
+
+  .especialidades-fila {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .barra-acento {
+    width: 100%;
+  }
+
+  .especialidades {
+    justify-content: space-between;
+    font-size: 13px;
+  }
+
+  .especialidades li + li {
+    padding-left: 6px;
+    margin-left: 6px;
+  }
+
+  .descripcion {
+    font-size: 14px;
+  }
+
+  .acciones {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .boton {
+    width: 85%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .redes {
+    gap: 12px;
+  }
+
+  .portada {
+    padding-bottom: 0;
+  }
+
+  .portada-imagen {
+    max-width: 340px;
+    min-height: 350px;
+  }
+
+  .portada-imagen .patron {
+    width: 130px;
+    top: 0;
+    right: 5px;
+  }
+
+  .portada-imagen .circulo {
+    width: 300px;
+    top: 20px;
+  }
+
+  .portada-imagen .sombra {
+    width: 270px;
+    left: calc(50% - 135px + 12px);
+  }
+
+  .portada-imagen:hover .sombra {
+    left: calc(50% - 135px + 20px);
+  }
+
+  .portada-imagen .retrato {
+    width: 300px;
+  }
+
+  .etiqueta-seccion {
+    padding: 8px 12px 8px 16px;
+  }
+
+  .etiqueta-seccion h2 {
+    font-size: 24px;
+  }
+
+  .titulo-seccion {
+    font-size: 28px;
+  }
+
+  .dato-item,
+  .interes-item,
+  .paso-item {
+    width: 100%;
+    border-left: none;
+  }
+
+  .dato-item + .dato-item,
+  .interes-item + .interes-item {
+    border-left: none;
+    border-top: 1px solid var(--linea-suave);
+    padding-top: 16px;
+  }
+
+  .tarjeta-codigo {
+    justify-content: center;
+    text-align: center;
+    padding: 25px 20px;
+  }
+
+  .tarjeta-codigo-img {
+    width: 100%;
+    opacity: 0.35;
+  }
+
+  .tarjeta-codigo-img img {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .tarjeta-codigo-texto {
+    width: 100%;
+  }
+
+  .barra-degradado {
+    margin: 0 auto;
+  }
+
+  .frase-texto p {
+    font-size: 22px;
+  }
+
+  .etiqueta-seccion-derecha {
+    padding: 8px 16px 8px 12px;
+  }
+
+  .etiqueta-seccion-derecha h2 {
+    font-size: 24px;
+  }
+
+  .edu-timeline {
+    padding-left: 18px;
+  }
+
+  .edu-punto {
+    left: -26px;
+  }
+
+  .cert-encabezado {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .cert-tarjeta {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .cert-tarjeta:nth-child(n + 2) {
+    display: none;
+  }
+
+  .exp-encabezado-fila {
+    padding-right: 16px;
+  }
+
+  .etiqueta-experiencia {
+    padding: 8px 12px 8px 16px;
+  }
+
+  .etiqueta-experiencia h2 {
+    font-size: 24px;
+  }
+
+  .exp-contadores {
+    margin-left: 16px;
+  }
+
+  .exp-contenido {
+    padding: 20px;
+  }
+
+  .exp-contenido h3 {
+    font-size: 22px;
+  }
+
+  .exp-metrica {
+    width: 100%;
+  }
+}
