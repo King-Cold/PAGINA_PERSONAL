@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+﻿@media (max-width: 480px) {
   .margen {
     padding: 15px 16px;
   }
@@ -114,7 +114,7 @@
   .dato-item + .dato-item,
   .interes-item + .interes-item {
     border-left: none;
-    border-top: 1px solid var(--linea-suave);
+    border-top: 1px solid var(--fondo-gris);
     padding-top: 16px;
   }
 
@@ -202,6 +202,79 @@
   }
 
   .exp-metrica {
+    width: 100%;
+  }
+
+  .etiqueta-habilidades {
+    padding: 8px 16px 8px 12px;
+  }
+
+  .etiqueta-habilidades h2 {
+    font-size: 24px;
+  }
+
+  .hab-lenguajes,
+  .hab-frameworks,
+  .hab-blandas {
+    grid-template-columns: 1fr;
+  }
+
+  .hab-herramientas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .proy-hero-texto h3 {
+    font-size: 26px;
+  }
+
+  .proy-destacada {
+    padding: 24px;
+    min-height: 280px;
+  }
+
+  .proy-destacada-img {
+    width: 100%;
+    opacity: 0.35;
+  }
+
+  .proy-destacada-img img {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .proy-destacada-info {
+    width: 100%;
+  }
+
+  .proy-fila-inferior {
+    grid-template-columns: 1fr;
+  }
+
+  .proy-flecha {
+    display: none;
+  }
+
+  .etiqueta-contacto {
+    padding: 8px 12px 8px 16px;
+  }
+
+  .etiqueta-contacto h2 {
+    font-size: 24px;
+  }
+
+  .contacto-texto h3 {
+    font-size: 28px;
+  }
+
+  .contacto-formulario-caja {
+    padding: 20px;
+  }
+
+  .contacto-fila-doble {
+    flex-direction: column;
+  }
+
+  .contacto-fila-doble .campo-grupo {
     width: 100%;
   }
 }

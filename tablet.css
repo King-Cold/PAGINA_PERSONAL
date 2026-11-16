@@ -1,4 +1,4 @@
-@media (max-width: 780px) {
+﻿@media (max-width: 780px) {
   .margen {
     padding: 15px 32px;
   }
@@ -44,7 +44,7 @@
     justify-content: center;
     gap: 10px;
     padding: 14px 20px;
-    color: var(--borde-claro);
+    color: var(--turquesa-suave);
     font-weight: 600;
     font-size: 16px;
     border-radius: 10px;
@@ -217,7 +217,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 12px;
-    border-top: 1px solid var(--borde-claro);
+    border-top: 1px solid var(--turquesa-suave);
   }
 
   .cert-grid {
@@ -269,5 +269,76 @@
 
   .exp-metrica {
     width: 30%;
+  }
+
+  .etiqueta-habilidades {
+    padding: 10px 32px 10px 14px;
+  }
+
+  .hab-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proy-hero,
+  .proy-fila-superior {
+    flex-direction: column;
+  }
+
+  .proy-hero-texto,
+  .proy-hero-img,
+  .proy-destacada,
+  .proy-fila-superior .proy-tarjeta {
+    width: 100%;
+  }
+
+  .proy-hero-img {
+    margin-top: 0;
+  }
+
+  .proy-metricas {
+    flex-wrap: wrap;
+  }
+
+  .proy-metrica-item + .proy-metrica-item {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .proy-fila-inferior {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .etiqueta-contacto {
+    padding: 10px 14px 10px 32px;
+  }
+
+  .contacto-contenido {
+    flex-direction: column;
+  }
+
+  .contacto-texto,
+  .contacto-formulario-caja {
+    width: 100%;
+  }
+
+  .contacto-nota {
+    margin-top: 20px;
+  }
+
+  .contacto-img {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    margin-top: 30px;
+  }
+
+  .seccion-contacto {
+    padding-bottom: 0;
+  }
+
+  .pie-superior,
+  .pie-inferior {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
