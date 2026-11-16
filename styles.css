@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 :root {
   --fuente-poppins: "Poppins", sans-serif;
@@ -37,7 +37,7 @@ html {
 body {
   background-color: var(--fondo);
   color: var(--blanco);
-  font-family: var(--fuente-inter);
+  font-family: var(--fuente-poppins);
 }
 
 .ancho {
@@ -2140,7 +2140,7 @@ body {
 .campo-grupo textarea {
   border: none;
   outline: none;
-  font-family: var(--fuente-inter);
+  font-family: var(--fuente-poppins);
   font-size: 16px;
   color: var(--texto-oscuro);
   background-color: transparent;
