@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 :root {
   --fuente-poppins: "Poppins", sans-serif;
@@ -29,6 +29,11 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 45px;
+}
+
 body {
   background-color: var(--fondo);
   color: var(--blanco);
@@ -49,7 +54,11 @@ body {
 }
 
 .encabezado {
-  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  background-color: var(--fondo);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 100;
 }
 
 .encabezado-contenido {
@@ -244,7 +253,7 @@ body {
 }
 
 .boton-principal:hover {
-  background-color: var(--azul);
+  background-color: var(--turquesa);
 }
 
 .boton-secundario {
@@ -1062,10 +1071,6 @@ body {
   align-items: center;
   gap: 8px;
   font-size: 16px;
-}
-
-.cert-proveedor i {
-  color: #ef4444;
 }
 
 .cert-proveedor-img {
